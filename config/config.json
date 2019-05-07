@@ -1,0 +1,21 @@
+{
+  "model": {
+    "debugMode": true,
+    "image height": 450,
+    "image width": 650,
+    "margin ratio": 0.05
+  },
+  "human": {
+    "threshold seconds": 3
+  },
+  "camera": {
+    "socket": "/dev/ttyUSB0",
+    "dev video": "/dev/video2",
+    "default speed": 10,
+    "center ratio": 0.2,
+    "home pan": 65521,
+    "home tilt": 65505,
+    "home zoom": 900,
+    "fps smooth ratio": 0.95
+  }
+}
